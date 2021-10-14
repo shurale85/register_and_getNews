@@ -9,7 +9,7 @@ enum CustomError: Error {
     case errMsg(msg: String)
 }
 
-public class NetworkServices {
+public class NetworkManager{
 
     /// Registers user by email
     /// - Parameters:
